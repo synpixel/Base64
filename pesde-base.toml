@@ -6,7 +6,5 @@ repository = "https://github.com/synpixel/Base64"
 license = "MIT"
 includes = []
 
-[target]
-
 [indices]
 default = "https://github.com/daimond113/pesde-index"
