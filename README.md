@@ -4,6 +4,14 @@ A pretty fast Luau Base64 encoder
 
 ## Installation
 
+### [pesde](https://pesde.daimond113.com/)
+
+Add the following to your `pesde.toml` under `[dependencies]`:
+
+```toml
+base64 = { name = "synpixel/base64", version = "0.3.0" }
+```
+
 ### [Wally](https://wally.run/)
 
 Add the following to your `wally.toml` under `[dependencies]`:
@@ -34,9 +42,11 @@ print(buffer.tostring(decodedData)) -- "Hello, world!"
 Benchmarks ran in Roblox Studio with a payload of **100,000,000** characters running on a **Ryzen 5900X** and **32GB RAM @ 3200MHz**, as of **2024/01/11**
 
 #### Native mode OFF:
+
 - Encode: 3303.27ms (30,273,037/s)
 - Decode: 3747.17ms (26,686,826/s)
 
 #### Native mode ON:
+
 - Encode: 461.23ms (216,813,496/s)
 - Decode: 596.37ms (167,680,012/s)

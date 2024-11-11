@@ -1,0 +1,14 @@
+name = "synpixel/base64_root"
+version = "3.0.0"
+license = "MIT"
+workspace_members = ["build/*"]
+private = true
+
+[target]
+environment = "luau"
+
+[scripts]
+build = "scripts/build.luau"
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"

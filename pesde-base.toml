@@ -1,0 +1,12 @@
+name = "synpixel/base64"
+version = "3.0.0"
+description = "A pretty fast Luau Base64 encoder"
+authors = ["Reselim"]
+repository = "https://github.com/synpixel/Base64"
+license = "MIT"
+includes = []
+
+[target]
+
+[indices]
+default = "https://github.com/daimond113/pesde-index"
