@@ -9,7 +9,7 @@ A pretty fast Luau Base64 encoder
 Add the following to your `pesde.toml` under `[dependencies]`:
 
 ```toml
-base64 = { name = "synpixel/base64", version = "0.3.0" }
+base64 = { name = "synpixel/base64", version = "3.0.0" }
 ```
 
 ### [Wally](https://wally.run/)
