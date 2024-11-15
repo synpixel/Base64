@@ -1,0 +1,8 @@
+name = "synpixel/base64_root"
+version = "3.0.0"
+target = "luau"
+
+[workspace."synpixel/base64"]
+roblox = "build/roblox"
+lune = "build/lune"
+luau = "build/luau"
