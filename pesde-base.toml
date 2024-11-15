@@ -1,5 +1,5 @@
 name = "synpixel/base64"
-version = "3.0.0"
+version = "3.0.1"
 description = "A copy of Reselim's Base64, for pesde"
 authors = ["Reselim"]
 repository = "https://github.com/synpixel/Base64"
